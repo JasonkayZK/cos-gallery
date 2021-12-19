@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>cos-album</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <link rel="stylesheet" type="text/css" href="cos-album/public/css/cos-album.css?v=1.1.6">
+</head>
+<body>
+<div class="back-home" style="margin: 5px">
+    <a href="/">
+        <button>←返回主页</button>
+    </a>
+</div>
+<gallery></gallery>
+<footer>
+    © 2021-2021
+    <a href="https://jasonkayzk.github.io" target="_blank">jasonkayzk.github.io</a> -
+    <a href="https://github.com/JasonkayZK/" target="_blank">Github</a>
+</footer>
+<script type="text/javascript" src="cos-album/public/js/cos-album.js?v=1.1.6"></script>
+<script>
+    /*相册*/
+    new Cosalbum({
+        'xmlLink': 'https://photos-1257829547.cos.ap-guangzhou.myqcloud.com',
+        'prependTo': 'gallery',
+        'viewNum': 5,
+        'copyUrl': 'https://jasonkayzk.github.io/cos-gallery'
+    });
+</script>
+</body>
+</html>
