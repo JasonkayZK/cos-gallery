@@ -1,3 +1,7 @@
-# cos-album
-[**resource**](https://github.com/Lruihao/cos-album)  
-![demo](/docs/view.png)
+# cos-gallery
+
+Online Demo：
+
+- https://jasonkayzk.github.io/cos-gallery/
+
+Inspired [cos-album](https://github.com/Lruihao/cos-album)
